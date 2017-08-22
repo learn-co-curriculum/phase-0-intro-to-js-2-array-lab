@@ -1,37 +1,29 @@
 {
-  "name": "java-script-arrays-lab",
+  "name": "js-data-structures-arrays-lab",
   "version": "0.1.0",
-  "description": "Practice writing and working with arrays",
-  "engines": {
-    "node": "6.x",
-    "npm": "3.x"
-  },
+  "description": "Practice manipulating arrays",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "postinstall": "gem install learn-co",
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/learn-co-curriculum/java-script-arrays-lab.git"
+    "url": "git+ssh://git@github.com/learn-co-curriculum/js-data-structures-arrays-lab.git"
   },
   "keywords": [
     "javascript",
     "flatiron",
-    "learn"
+    "learn",
+    "arrays"
   ],
-  "author": "pletcher",
+  "author": "Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/java-script-arrays-lab/issues"
+    "url": "https://github.com/learn-co-curriculum/js-data-structures-arrays-lab/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/java-script-arrays-lab#readme",
+  "homepage": "https://github.com/learn-co-curriculum/js-data-structures-arrays-lab#readme",
   "devDependencies": {
-    "babel-core": "^6.11.4",
-    "babel-preset-es2015": "^6.9.0",
-    "expect": "^1.20.2",
-    "jsdom": "^9.2.1",
-    "mocha": "^2.5.3",
-    "mocha-jsdom": "^1.1.0",
-    "mocha-multi": "^0.9.0"
+    "learn-browser": "^0.1.12"
   }
 }
