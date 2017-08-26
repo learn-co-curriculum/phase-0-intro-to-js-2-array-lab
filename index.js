@@ -1,1 +1,1 @@
-const kittens = ['Milo', 'Otis', 'Garfield'];
+// Write your solution here!
