@@ -1,31 +1,31 @@
-function destructivelyAppendKitten (name) {
-  kittens.push(name);
+function destructivelyAppendDriver (name) {
+  drivers.push(name);
 }
 
-function destructivelyPrependKitten (name) {
-  kittens.unshift(name);
+function destructivelyPrependDriver (name) {
+  drivers.unshift(name);
 }
 
-function destructivelyRemoveLastKitten () {
-  kittens.pop();
+function destructivelyRemoveLastDriver () {
+  drivers.pop();
 }
 
-function destructivelyRemoveFirstKitten () {
-  kittens.shift();
+function destructivelyRemoveFirstDriver () {
+  drivers.shift();
 }
 
-function appendKitten (name) {
-  return [...kittens, name];
+function appendDriver (name) {
+  return [...drivers, name];
 }
 
-function prependKitten (name) {
-  return [name, ...kittens];
+function prependDriver (name) {
+  return [name, ...drivers];
 }
 
-function removeFirstKitten () {
-  return kittens.slice(1);
+function removeFirstDriver () {
+  return drivers.slice(1);
 }
 
-function removeLastKitten () {
-  return kittens.slice(0, kittens.length - 1);
+function removeLastDriver () {
+  return drivers.slice(0, drivers.length - 1);
 }
