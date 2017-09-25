@@ -1,7 +1,7 @@
 {
   "name": "js-data-structures-arrays-lab",
   "version": "0.1.0",
-  "description": "Practice manipulating arrays",
+  "description": "JavaScript Data Structures Arrays Lab for Learn.co",
   "main": "index.js",
   "scripts": {
     "postinstall": "gem install learn-co",
@@ -12,10 +12,11 @@
     "url": "git+ssh://git@github.com/learn-co-curriculum/js-data-structures-arrays-lab.git"
   },
   "keywords": [
-    "javascript",
-    "flatiron",
     "learn",
-    "arrays"
+    "flatiron school",
+    "javascript",
+    "arrays",
+    "lab"
   ],
   "author": "Flatiron School",
   "license": "SEE LICENSE IN LICENSE.md",

@@ -1,8 +1,11 @@
 tags:
+  - arrays
+  - push
+  - pop
+  - shift
   - lab
   - data structures
-  - arrays
 languages:
   - javascript
 resources:
-  - 1
+  - 0
