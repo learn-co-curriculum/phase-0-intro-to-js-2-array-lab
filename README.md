@@ -33,7 +33,7 @@ Why is a blank slate important? We want our programs to be predictable: this mak
 
 Remember the workflow:
 
-1. Run `learn-test`.
+1. Run `learn`.
 
 2. Read the errors; vocalize what they're asking you to do.
 
@@ -41,7 +41,7 @@ Remember the workflow:
 
 4. Repeat as needed for further tests.
 
-5. Run `learnsubmit` when finished!
+5. Run `learn submit` when finished!
 
 If you open up `test/indexTest.js`, you will see that in the `beforeEach` block we initialize our `driver` array values so that you can focus on what really matters — understanding how to manipulate arrays in JavaScript.
 
