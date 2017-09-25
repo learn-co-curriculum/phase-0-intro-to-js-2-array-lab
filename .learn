@@ -1,12 +1,10 @@
 tags:
-  - learn.co
-  - flatiron school
-  - javascript
   - arrays
   - push
   - pop
   - shift
   - lab
+  - data structures
 languages:
   - javascript
 resources:
