@@ -1,5 +1,3 @@
-const expect = chai.expect;
-
 describe('index.js', function () {
   describe('drivers', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
