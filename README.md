@@ -60,5 +60,3 @@ If you open up `test/indexTest.js`, you will see that in the `beforeEach` block 
 ## Conclusion
 
 We put our array knowledge into practice by writing and manipulating arrays. We also covered the concept of mutating state.
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/js-data-structures-arrays-lab'>Arrays Lab</a> on Learn.co and start learning to code for free.</p>
