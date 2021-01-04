@@ -1,62 +1,62 @@
 # Arrays Lab
 
-## Problem Statement
+## Learning Goals
 
-We've learned about how arrays work. We know that `push()` pushes elements onto
-the ends of arrays, and `pop()` pops them off; similarly, `unshift()` adds
-elements to the beginnings of arrays, and `shift()` pulls them off. Now it's
-time to practice what we've learned.
+* Practice writing arrays
+* Practice using _destructive_ methods to manipulate arrays
+* Practice using _nondestructive_ methods to manipulate arrays
 
-## Objectives
+## Introduction
 
-1. Practice writing arrays
-2. Practice manipulating arrays
-3. Explain how to manipulate arrays in a non-destructive way
+We've learned about how arrays work and about the array methods built in to
+JavaScript that we can use to manipulate them. Now it's time to practice what
+we've learned.
+
+If you haven't already, fork and clone this lab into your local environment.
+Navigate into its directory in the terminal, then run `code .` to open the files
+in Visual Studio Code. Finally, run `npm install` to install the lab's
+dependencies.
 
 ## Instructions
 
-You might have noticed that our tests are looking for functions like
-`destructivelyAppendDriver()` — what's up with that?
+Open up the `test` folder and take a look at `indexTest.js`. Note that some of
+the names of the functions you will be writing begin with `destructively` and
+some don't. This is a clue as to which `Array` method you will need to use for
+each function.
 
-We want to distinguish between actions that _mutate_ ("change") their underlying
-structures (like `pop()`, `push()`, `shift()`, and `unshift()`) and those
-functions that leave those structures untouched.
+Note also that the first test asks for an array called `cats`, set to an
+initial value of `["Milo", "Otis", "Garfield"]`. In your functions, you will be
+accessing and manipulating this array.
 
-In general, it's good practice to avoid mutating a program's state whenever
-possible. So we want to call out these methods as destructive, since mutating
-state means we don't always know what we're dealing with. Indeed, these
-mutations mean that we need to refresh the test environment after every test to
-make sure that we're not working with mutated data!
+Near the top of `indexTest.js` you will see the following:
 
-By contrast, we also have methods like `appendDriver()`, which simply adds a
-driver to the end of the `drivers` array and returns the _new_ array, leaving
-the existing array untouched. This flow is preferable to mutating state because
-we have complete control over what's going into and coming out of the function.
+```js
+    beforeEach(function () {
+      cats.length = 0;
 
-You'll notice that the first test asks for an array called `drivers`, set to an
-initial value of `["Milo", "Otis", "Garfield"]`.
+      cats.push('Milo', 'Otis', 'Garfield');
+    });
+```
 
-In our test file, we're going to reset this array to your initial value after
-every test. Some of our tests manipulate arrays in place, and we want to be sure
-that we can get back to a blank slate between tests.
+What this code does is _reset_ the array to its original contents before each
+test is run. The reason we need to do this is because some of your functions
+will be _destructive_ &mdash; they will change the original `cats` array. This
+is a problem because it means the input to the remaining functions will be
+dependent on the outcome of other functions. It also means that the expected
+return value of a function might change if the tests are run in a different
+order. This makes it more difficult both to write tests in the first place and
+to figure out how to get the tests to pass. Resetting the array returns us to a
+blank slate between tests.
 
-Why is a blank slate important? We want our programs to be predictable: this
-makes them more robust, easier to maintain, and less prone to bugs. One way to
-achieve predictability is by isolating our tests from one another, meaning that
-no test should depend on the outcome or process of any other test. That way,
-tests can run in any order and test _known_ inputs and environments, rather than
-depending on other tests running first and modifying the entire environment.
+This is also a good illustration of why it's generally good practice to avoid
+mutating a program's state whenever possible. If we use only _nondestructive_
+methods, we have complete control over what's going into and coming out of the
+function. This makes our programs more robust, easier to maintain, and less
+prone to bugs.
 
 Remember the workflow:
 
-1. Run `learn`.
+1. Run the tests using `npm test`.
 2. Read the errors; vocalize what they're asking you to do.
 3. Write code; repeat steps 1 and 2 often until a test passes.
-4. Repeat as needed for further tests.
-5. Run `learn submit` when finished!
-
-If you open up `test/indexTest.js`, you will see that in the `beforeEach` block we initialize our `driver` array values so that you can focus on what really matters — understanding how to manipulate arrays in JavaScript.
-
-## Conclusion
-
-We put our array knowledge into practice by writing and manipulating arrays. We also covered the concept of mutating state.
+4. Repeat as needed for the remaining tests.
