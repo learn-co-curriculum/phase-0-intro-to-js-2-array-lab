@@ -40,7 +40,7 @@ Near the top of `indexTest.js` you will see the following:
 
 What this code does is _reset_ the array to its original contents before each
 test is run. The reason we need to do this is because some of your functions
-will be _destructive_ &mdash; they will change the original `cats` array. This
+will be _destructive_ — they will change the original `cats` array. This
 is a problem because it means the input to the remaining functions will be
 dependent on the outcome of other functions. It also means that the expected
 return value of a function might change if the tests are run in a different
