@@ -61,6 +61,9 @@ Remember the workflow:
 3. Write code; repeat steps 1 and 2 often until a test passes.
 4. Repeat as needed for the remaining tests.
 
+**Note:** Phase 1 students who have set up the Learn gem should run `learn test`
+as usual rather than `npm test`.
+
 ## Saving Your Work Remotely
 
 Currently, the work you've done on this assignment is only on your local
