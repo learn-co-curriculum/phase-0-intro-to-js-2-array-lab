@@ -2,9 +2,9 @@
 
 ## Learning Goals
 
-* Practice writing arrays
-* Practice using _destructive_ methods to manipulate arrays
-* Practice using _nondestructive_ methods to manipulate arrays
+- Practice writing arrays
+- Practice using _destructive_ methods to manipulate arrays
+- Practice using _nondestructive_ methods to manipulate arrays
 
 ## Introduction
 
@@ -31,11 +31,11 @@ accessing and manipulating this array.
 Near the top of `indexTest.js` you will see the following:
 
 ```js
-    beforeEach(function () {
-      cats.length = 0;
+beforeEach(function () {
+  cats.length = 0;
 
-      cats.push('Milo', 'Otis', 'Garfield');
-    });
+  cats.push("Milo", "Otis", "Garfield");
+});
 ```
 
 What this code does is _reset_ the array to its original contents before each
@@ -68,10 +68,10 @@ machine. To preserve your solution on your GitHub fork, you will need to stage t
 changes you've made, commit them, and push the commit up to GitHub. Use
 the following commands to do this:
 
-```sh
-git add .
-git commit -m "Completed assignment"
-git push
+```console
+$ git add .
+$ git commit -m "Completed assignment"
+$ git push
 ```
 
 If you visit your fork on GitHub, you should now see that _you've_ made the most
