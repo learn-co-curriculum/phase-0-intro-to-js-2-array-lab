@@ -29,12 +29,13 @@ function prependCat() {
   return["Arnold", ...cats]
 }
 
-function removeLastCat(name){
+function removeLastCat(){
   const newArray = cats.slice(0, cats.length - 1);
   return newArray
 }
 
-function removeFirstCat() {
+function removeFirstCat(){
   const newArray = cats.slice(1);
-  return newArray;
+  return newArray
 }
+
