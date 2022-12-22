@@ -12,7 +12,7 @@ We've learned about how arrays work and about the array methods built in to
 JavaScript that we can use to manipulate them. Now it's time to practice what
 we've learned.
 
-If you haven't already, fork and clone this lab into your local environment.
+If you haven't already, **fork and clone** this lab into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
 in Visual Studio Code.
 
@@ -55,7 +55,8 @@ prone to bugs.
 
 Remember the workflow:
 
-1. Run the tests using `learn test`.
-2. Read the errors; vocalize what they're asking you to do.
-3. Write code; repeat steps 1 and 2 often until a test passes.
-4. Repeat as needed for the remaining tests.
+1. Install the dependencies using `npm install`.
+2. Run the tests using `npm test`.
+3. Read the errors; vocalize what they're asking you to do.
+4. Write code; repeat steps 2 and 3 often until a test passes.
+5. Repeat as needed for the remaining tests.
