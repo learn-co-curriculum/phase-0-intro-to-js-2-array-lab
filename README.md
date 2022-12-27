@@ -60,3 +60,6 @@ Remember the workflow:
 3. Read the errors; vocalize what they're asking you to do.
 4. Write code; repeat steps 2 and 3 often until a test passes.
 5. Repeat as needed for the remaining tests.
+
+After you have all the tests passing, remember to commit and push your changes
+up to GitHub, then submit your work to Canvas using CodeGrade.
