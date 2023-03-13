@@ -24,14 +24,14 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/js-data-structures-arrays-lab#readme",
   "devDependencies": {
-    "babel-core": "6.26.3",
+    "babel-core": "^4.7.16",
     "babel-preset-env": "1.7.0",
     "chai": "4.1.2",
-    "jsdom": "9.2.1",
-    "mocha": "5.2.0",
+    "chai-spies-next": "^0.9.3",
+    "jsdom": "^21.1.1",
+    "mocha": "^10.2.0",
     "mocha-jsdom": "~1.1.0",
-    "mocha-multi": "1.0.1",
-    "chai-spies-next": "^0.9.3"
+    "mocha-multi": "1.0.1"
   },
   "dependencies": {
     "sinon": "^7.3.2"
