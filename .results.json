@@ -2,12 +2,12 @@
   "stats": {
     "suites": 11,
     "tests": 9,
-    "passes": 7,
+    "passes": 9,
     "pending": 0,
-    "failures": 2,
-    "start": "2025-05-06T16:59:01.109Z",
-    "end": "2025-05-06T16:59:01.213Z",
-    "duration": 104
+    "failures": 0,
+    "start": "2025-05-06T17:06:00.217Z",
+    "end": "2025-05-06T17:06:00.322Z",
+    "duration": 105
   },
   "tests": [
     {
@@ -34,7 +34,7 @@
     {
       "title": "removes the last cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -64,45 +64,18 @@
       "fullTitle": "index.js Array functions removeLastCat() removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: removeLastCat is not defined\n    at Context.<anonymous> (test/indexTest.js:67:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "removeLastCat is not defined"
-      }
+      "err": {}
     },
     {
       "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
       "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: removeFirstCat is not defined\n    at Context.<anonymous> (test/indexTest.js:75:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "removeFirstCat is not defined"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
-      "fullTitle": "index.js Array functions removeLastCat() removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: removeLastCat is not defined\n    at Context.<anonymous> (test/indexTest.js:67:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "removeLastCat is not defined"
-      }
-    },
-    {
-      "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
-      "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: removeFirstCat is not defined\n    at Context.<anonymous> (test/indexTest.js:75:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "removeFirstCat is not defined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
@@ -128,7 +101,7 @@
     {
       "title": "removes the last cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -149,6 +122,20 @@
     {
       "title": "prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
       "fullTitle": "index.js Array functions prependCat(name) prepends a cat to the cats array and returns a new array, leaving the cats array unchanged",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeLastCat() removes the last cat in the cats array and returns a new array, leaving the cats array unchanged",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
+      "fullTitle": "index.js Array functions removeFirstCat() removes the first cat from the cats array and returns a new array, leaving the cats array unchanged",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
