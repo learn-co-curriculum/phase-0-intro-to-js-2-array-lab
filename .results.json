@@ -2,11 +2,11 @@
   "stats": {
     "suites": 11,
     "tests": 9,
-    "passes": 2,
+    "passes": 3,
     "pending": 0,
-    "failures": 7,
-    "start": "2025-05-06T16:55:00.754Z",
-    "end": "2025-05-06T16:55:00.859Z",
+    "failures": 6,
+    "start": "2025-05-06T16:55:48.906Z",
+    "end": "2025-05-06T16:55:49.011Z",
     "duration": 105
   },
   "tests": [
@@ -29,10 +29,7 @@
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: destructivelyPrependCat is not defined\n    at Context.<anonymous> (test/indexTest.js:27:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "destructivelyPrependCat is not defined"
-      }
+      "err": {}
     },
     {
       "title": "removes the last cat from the cats array",
@@ -97,16 +94,6 @@
   ],
   "pending": [],
   "failures": [
-    {
-      "title": "prepends a cat to the beginning of the cats array",
-      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: destructivelyPrependCat is not defined\n    at Context.<anonymous> (test/indexTest.js:27:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "destructivelyPrependCat is not defined"
-      }
-    },
     {
       "title": "removes the last cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
@@ -179,6 +166,13 @@
     {
       "title": "appends a cat to the end of the cats array",
       "fullTitle": "index.js Array functions destructivelyAppendCat(name) appends a cat to the end of the cats array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "prepends a cat to the beginning of the cats array",
+      "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
