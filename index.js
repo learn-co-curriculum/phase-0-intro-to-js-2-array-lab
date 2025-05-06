@@ -23,3 +23,11 @@ const appendCat = (catToAppend) => {
 const prependCat = (catToPrepend) => {
     return [catToPrepend, ...cats]
 }
+
+const removeLastCat = () => {
+    return cats.slice(0, -1)
+}
+
+const removeFirstCat = () => {
+    return cats.slice(1)
+}
