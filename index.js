@@ -15,3 +15,11 @@ const destructivelyRemoveLastCat = () => {
 const destructivelyRemoveFirstCat = () => {
     cats.shift();
 }
+
+const appendCat = (catToAppend) => {
+    return [...cats, catToAppend]
+}
+
+const prependCat = (catToPrepend) => {
+    return [catToPrepend, ...cats]
+}
