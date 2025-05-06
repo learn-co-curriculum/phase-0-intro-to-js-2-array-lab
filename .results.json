@@ -2,18 +2,18 @@
   "stats": {
     "suites": 11,
     "tests": 9,
-    "passes": 3,
+    "passes": 4,
     "pending": 0,
-    "failures": 6,
-    "start": "2025-05-06T16:55:48.906Z",
-    "end": "2025-05-06T16:55:49.011Z",
-    "duration": 105
+    "failures": 5,
+    "start": "2025-05-06T16:56:51.184Z",
+    "end": "2025-05-06T16:56:51.286Z",
+    "duration": 102
   },
   "tests": [
     {
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -36,10 +36,7 @@
       "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: destructivelyRemoveLastCat is not defined\n    at Context.<anonymous> (test/indexTest.js:35:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "destructivelyRemoveLastCat is not defined"
-      }
+      "err": {}
     },
     {
       "title": "removes the first cat from the cats array",
@@ -95,16 +92,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "removes the last cat from the cats array",
-      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: destructivelyRemoveLastCat is not defined\n    at Context.<anonymous> (test/indexTest.js:35:9)\n    at process.processImmediate (node:internal/timers:478:21)",
-        "message": "destructivelyRemoveLastCat is not defined"
-      }
-    },
-    {
       "title": "removes the first cat from the cats array",
       "fullTitle": "index.js Array functions destructivelyRemoveFirstCat() removes the first cat from the cats array",
       "duration": 0,
@@ -159,7 +146,7 @@
     {
       "title": "is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
       "fullTitle": "index.js cats is assigned an initial value of [\"Milo\", \"Otis\", \"Garfield\"]",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -173,6 +160,13 @@
     {
       "title": "prepends a cat to the beginning of the cats array",
       "fullTitle": "index.js Array functions destructivelyPrependCat(name) prepends a cat to the beginning of the cats array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "removes the last cat from the cats array",
+      "fullTitle": "index.js Array functions destructivelyRemoveLastCat() removes the last cat from the cats array",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
