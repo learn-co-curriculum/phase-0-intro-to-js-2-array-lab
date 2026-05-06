@@ -1,6 +1,6 @@
 const cats = ["Milo", "Otis","Garfield"];
-function destructivelyAppendCat(name) {
-    cats.push(name);
+function destructivelyAppendCat(litter) {
+    cats.push(litter);
     return cats;
 }
 function destructivelyPrependCat(name) {
